@@ -34,5 +34,3 @@ sorted_items = sorted(ru_en.items())
 with open('ru-en.txt', 'w', encoding='utf-8') as f:
     for ru_word, eng_words in sorted_items:
         f.write(f"{ru_word} – {eng_words}\n")
-
-print("Готово! Создан файл ru-en.txt")
